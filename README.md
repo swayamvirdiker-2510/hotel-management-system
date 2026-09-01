@@ -42,8 +42,6 @@ hotel-management-system/
 🚧 Work in progress — core files are being added to the repository.
 
 ## Authors
-
-- Shivesh Naik
 - Swayam Virdiker
 
 Don Bosco College of Engineering
