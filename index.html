@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hotel Management System</h1>
+
+    <div class="menu">
+      <button onclick="showAvailableRooms()">1. Display Available Rooms</button>
+      <button onclick="showAddCustomer()">2. Add Customer</button>
+      <button onclick="showReservation()">3. Check/Make Reservation</button>
+      <button onclick="showCancelReservation()">4. Cancel Reservation</button>
+      <button onclick="showCustomerDetails()">5. Display Customer Details</button>
+    </div>
+
+    <div id="outputArea"></div>
+
+    <!-- ✅ ADD CUSTOMER FORM (Hidden initially) -->
+    <div id="addCustomerForm" style="display:none; margin-top:20px;">
+      <form method="POST" action="add_customer.php">
+        <input type="text" name="name" placeholder="Customer Name" required style="margin-bottom:10px; width:100%; padding:8px;"><br>
+        <input type="text" name="contact" placeholder="Contact Details" required style="margin-bottom:10px; width:100%; padding:8px;"><br>
+        <button type="submit" style="background-color:green; color:white; padding:8px 16px; border:none; border-radius:5px;">Submit</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- ✅ JS TO TOGGLE FORM -->
+    <script>
+      function showAddCustomer() {
+        document.getElementById("addCustomerForm").style.display = "block";
+        document.getElementById("outputArea").innerHTML = "";
+      }
+    </script>
+  </div>
+</body>
+</html>
