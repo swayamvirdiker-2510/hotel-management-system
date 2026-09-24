@@ -1,0 +1,433 @@
+{
+  "rooms": [
+    {
+      "number": 1001,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2001,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3001,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1002,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2002,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3002,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1003,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2003,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3003,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1004,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2004,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3004,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1005,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2005,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3005,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1006,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2006,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3006,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1007,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2007,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3007,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1008,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2008,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3008,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1009,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2009,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3009,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1010,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2010,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3010,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1011,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2011,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3011,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1012,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2012,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3012,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1013,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2013,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3013,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1014,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2014,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3014,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1015,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2015,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3015,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1016,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2016,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3016,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1017,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2017,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3017,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1018,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2018,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3018,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1019,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2019,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3019,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 1020,
+      "type": "Single",
+      "rate": 900,
+      "available": true
+    },
+    {
+      "number": 2020,
+      "type": "Double",
+      "rate": 1500,
+      "available": true
+    },
+    {
+      "number": 3020,
+      "type": "Suite",
+      "rate": 2000,
+      "available": true
+    },
+    {
+      "number": 4001,
+      "type": "VIP",
+      "rate": 5000,
+      "available": true
+    },
+    {
+      "number": 4002,
+      "type": "VIP",
+      "rate": 5000,
+      "available": true
+    },
+    {
+      "number": 4003,
+      "type": "VIP",
+      "rate": 5000,
+      "available": true
+    },
+    {
+      "number": 4004,
+      "type": "VIP",
+      "rate": 5000,
+      "available": true
+    },
+    {
+      "number": 4005,
+      "type": "VIP",
+      "rate": 5000,
+      "available": true
+    },
+    {
+      "number": 4006,
+      "type": "VIP",
+      "rate": 5000,
+      "available": true
+    },
+    {
+      "number": 4007,
+      "type": "VIP",
+      "rate": 5000,
+      "available": true
+    },
+    {
+      "number": 4008,
+      "type": "VIP",
+      "rate": 5000,
+      "available": true
+    },
+    {
+      "number": 4009,
+      "type": "VIP",
+      "rate": 5000,
+      "available": true
+    },
+    {
+      "number": 4010,
+      "type": "VIP",
+      "rate": 5000,
+      "available": true
+    }
+  ],
+  "customers": [
+    {
+      "name": "swauyam vcirdiker",
+      "contact": "79773574",
+      "roomsBooked": [],
+      "confirmationNumber": null
+    }
+  ],
+  "confirmationCounter": 1000
+}
