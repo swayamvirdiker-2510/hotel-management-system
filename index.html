@@ -4,40 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hotel Management System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Hotel Management System</h1>
-
-    <div class="menu">
-      <button onclick="showAvailableRooms()">1. Display Available Rooms</button>
-      <button onclick="showAddCustomer()">2. Add Customer</button>
-      <button onclick="showReservation()">3. Check/Make Reservation</button>
-      <button onclick="showCancelReservation()">4. Cancel Reservation</button>
-      <button onclick="showCustomerDetails()">5. Display Customer Details</button>
+  <header class="desk">
+    <div class="desk-inner">
+      <span class="desk-mark">&#8962;</span>
+      <div>
+        <h1>The Fenwick Hotel</h1>
+        <p class="desk-sub">Front desk &mdash; management console</p>
+      </div>
     </div>
+  </header>
 
-    <div id="outputArea"></div>
+  <main class="container">
+    <nav class="menu">
+      <button onclick="showAvailableRooms()"><span class="num">1</span>Display available rooms</button>
+      <button onclick="handleAddCustomer()"><span class="num">2</span>Add customer</button>
+      <button onclick="handleReservation()"><span class="num">3</span>Check / make reservation</button>
+      <button onclick="handleCancelReservation()"><span class="num">4</span>Cancel reservation</button>
+      <button onclick="showCustomerDetails()"><span class="num">5</span>Display customer details</button>
+    </nav>
 
-    <!-- ✅ ADD CUSTOMER FORM (Hidden initially) -->
-    <div id="addCustomerForm" style="display:none; margin-top:20px;">
-      <form method="POST" action="add_customer.php">
-        <input type="text" name="name" placeholder="Customer Name" required style="margin-bottom:10px; width:100%; padding:8px;"><br>
-        <input type="text" name="contact" placeholder="Contact Details" required style="margin-bottom:10px; width:100%; padding:8px;"><br>
-        <button type="submit" style="background-color:green; color:white; padding:8px 16px; border:none; border-radius:5px;">Submit</button>
-      </form>
-    </div>
+    <section id="outputArea">
+      <p class="placeholder">Select an action above to see results here.</p>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
-
-    <!-- ✅ JS TO TOGGLE FORM -->
-    <script>
-      function showAddCustomer() {
-        document.getElementById("addCustomerForm").style.display = "block";
-        document.getElementById("outputArea").innerHTML = "";
-      }
-    </script>
-  </div>
+  <script src="script.js"></script>
 </body>
 </html>
